@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDE522A022A800A4008A0704 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE5229F22A800A4008A0704 /* AppDelegate.swift */; };
+		BDE522A222A800A4008A0704 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE522A122A800A4008A0704 /* ViewController.swift */; };
+		BDE522A522A800A4008A0704 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDE522A322A800A4008A0704 /* Main.storyboard */; };
+		BDE522A722A800A4008A0704 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDE522A622A800A4008A0704 /* Assets.xcassets */; };
+		BDE522AA22A800A4008A0704 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDE522A822A800A4008A0704 /* LaunchScreen.storyboard */; };
+		BDE522B522A800A4008A0704 /* project_with_password_authenticated_repoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE522B422A800A4008A0704 /* project_with_password_authenticated_repoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDE522B122A800A4008A0704 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDE5229422A800A3008A0704 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDE5229B22A800A4008A0704;
+			remoteInfo = "project-with-password-authenticated-repo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDE5229C22A800A4008A0704 /* project-with-password-authenticated-repo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "project-with-password-authenticated-repo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDE5229F22A800A4008A0704 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDE522A122A800A4008A0704 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDE522A422A800A4008A0704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDE522A622A800A4008A0704 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDE522A922A800A4008A0704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDE522AB22A800A4008A0704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDE522B022A800A4008A0704 /* project-with-password-authenticated-repoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "project-with-password-authenticated-repoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDE522B422A800A4008A0704 /* project_with_password_authenticated_repoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_with_password_authenticated_repoTests.swift; sourceTree = "<group>"; };
+		BDE522B622A800A4008A0704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDE5229922A800A4008A0704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE522AD22A800A4008A0704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDE5229322A800A3008A0704 = {
+			isa = PBXGroup;
+			children = (
+				BDE5229E22A800A4008A0704 /* project-with-password-authenticated-repo */,
+				BDE522B322A800A4008A0704 /* project-with-password-authenticated-repoTests */,
+				BDE5229D22A800A4008A0704 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDE5229D22A800A4008A0704 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDE5229C22A800A4008A0704 /* project-with-password-authenticated-repo.app */,
+				BDE522B022A800A4008A0704 /* project-with-password-authenticated-repoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDE5229E22A800A4008A0704 /* project-with-password-authenticated-repo */ = {
+			isa = PBXGroup;
+			children = (
+				BDE5229F22A800A4008A0704 /* AppDelegate.swift */,
+				BDE522A122A800A4008A0704 /* ViewController.swift */,
+				BDE522A322A800A4008A0704 /* Main.storyboard */,
+				BDE522A622A800A4008A0704 /* Assets.xcassets */,
+				BDE522A822A800A4008A0704 /* LaunchScreen.storyboard */,
+				BDE522AB22A800A4008A0704 /* Info.plist */,
+			);
+			path = "project-with-password-authenticated-repo";
+			sourceTree = "<group>";
+		};
+		BDE522B322A800A4008A0704 /* project-with-password-authenticated-repoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDE522B422A800A4008A0704 /* project_with_password_authenticated_repoTests.swift */,
+				BDE522B622A800A4008A0704 /* Info.plist */,
+			);
+			path = "project-with-password-authenticated-repoTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDE5229B22A800A4008A0704 /* project-with-password-authenticated-repo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDE522B922A800A4008A0704 /* Build configuration list for PBXNativeTarget "project-with-password-authenticated-repo" */;
+			buildPhases = (
+				BDE5229822A800A4008A0704 /* Sources */,
+				BDE5229922A800A4008A0704 /* Frameworks */,
+				BDE5229A22A800A4008A0704 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "project-with-password-authenticated-repo";
+			productName = "project-with-password-authenticated-repo";
+			productReference = BDE5229C22A800A4008A0704 /* project-with-password-authenticated-repo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDE522AF22A800A4008A0704 /* project-with-password-authenticated-repoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDE522BC22A800A4008A0704 /* Build configuration list for PBXNativeTarget "project-with-password-authenticated-repoTests" */;
+			buildPhases = (
+				BDE522AC22A800A4008A0704 /* Sources */,
+				BDE522AD22A800A4008A0704 /* Frameworks */,
+				BDE522AE22A800A4008A0704 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDE522B222A800A4008A0704 /* PBXTargetDependency */,
+			);
+			name = "project-with-password-authenticated-repoTests";
+			productName = "project-with-password-authenticated-repoTests";
+			productReference = BDE522B022A800A4008A0704 /* project-with-password-authenticated-repoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDE5229422A800A3008A0704 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Markos Charatzas";
+				TargetAttributes = {
+					BDE5229B22A800A4008A0704 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					BDE522AF22A800A4008A0704 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = BDE5229B22A800A4008A0704;
+					};
+				};
+			};
+			buildConfigurationList = BDE5229722A800A3008A0704 /* Build configuration list for PBXProject "project-with-password-authenticated-repo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDE5229322A800A3008A0704;
+			productRefGroup = BDE5229D22A800A4008A0704 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDE5229B22A800A4008A0704 /* project-with-password-authenticated-repo */,
+				BDE522AF22A800A4008A0704 /* project-with-password-authenticated-repoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDE5229A22A800A4008A0704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE522AA22A800A4008A0704 /* LaunchScreen.storyboard in Resources */,
+				BDE522A722A800A4008A0704 /* Assets.xcassets in Resources */,
+				BDE522A522A800A4008A0704 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE522AE22A800A4008A0704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDE5229822A800A4008A0704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE522A222A800A4008A0704 /* ViewController.swift in Sources */,
+				BDE522A022A800A4008A0704 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE522AC22A800A4008A0704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE522B522A800A4008A0704 /* project_with_password_authenticated_repoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDE522B222A800A4008A0704 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDE5229B22A800A4008A0704 /* project-with-password-authenticated-repo */;
+			targetProxy = BDE522B122A800A4008A0704 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDE522A322A800A4008A0704 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDE522A422A800A4008A0704 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDE522A822A800A4008A0704 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDE522A922A800A4008A0704 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDE522B722A800A4008A0704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDE522B822A800A4008A0704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDE522BA22A800A4008A0704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQ2US2UQQ7;
+				INFOPLIST_FILE = "project-with-password-authenticated-repo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.windmill.project-with-password-authenticated-repo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDE522BB22A800A4008A0704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQ2US2UQQ7;
+				INFOPLIST_FILE = "project-with-password-authenticated-repo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.windmill.project-with-password-authenticated-repo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDE522BD22A800A4008A0704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQ2US2UQQ7;
+				INFOPLIST_FILE = "project-with-password-authenticated-repoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.windmill.project-with-password-authenticated-repoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/project-with-password-authenticated-repo.app/project-with-password-authenticated-repo";
+			};
+			name = Debug;
+		};
+		BDE522BE22A800A4008A0704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQ2US2UQQ7;
+				INFOPLIST_FILE = "project-with-password-authenticated-repoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.windmill.project-with-password-authenticated-repoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/project-with-password-authenticated-repo.app/project-with-password-authenticated-repo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDE5229722A800A3008A0704 /* Build configuration list for PBXProject "project-with-password-authenticated-repo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE522B722A800A4008A0704 /* Debug */,
+				BDE522B822A800A4008A0704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDE522B922A800A4008A0704 /* Build configuration list for PBXNativeTarget "project-with-password-authenticated-repo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE522BA22A800A4008A0704 /* Debug */,
+				BDE522BB22A800A4008A0704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDE522BC22A800A4008A0704 /* Build configuration list for PBXNativeTarget "project-with-password-authenticated-repoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE522BD22A800A4008A0704 /* Debug */,
+				BDE522BE22A800A4008A0704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDE5229422A800A3008A0704 /* Project object */;
+}
